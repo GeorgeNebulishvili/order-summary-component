@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html    {
+    box-sizing: border-box;
+}
+
+:root   {
+    --background:#E0E8FF;
+    --body: #FFFFFF;
+    --box: #F7F9FF;
+    --proceed: #382AE1;
+    --maintext: #1F2E55;
+    --secondarytext: #717FA6;
+}
+
+body   {
+    font-family:"Red Hat Display";
+    background-color: var(--background);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    /* background-image: url(/image/pattern-background-mobile); */
+}
+
+.main-container   {
+    background-color: var(--body);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 567px;
+    width: 327px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    display: block;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    
+}
+
+.icon   {
+    position: relative;
+    width: 327px;
+    height: 160px;
+}
+
+
+
+.annual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:var(--box)
+}
+
+.proceed    {
+    position: relative;
+    background-color: var(--proceed);
+    display: flex;
+    border-radius: 11px ;
+    Width:279px;
+    Height:50px;
+    align-items: center;
+    text-align: center;
+    margin: 24px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.header {
+    position: relative;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    color: var(--maintext);
+}
+
+.descr  {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--secondarytext);
+}
+.plan   {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--maintext);
+}
+
+.fee    {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--secondarytext);
+
+}
+.prtext {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--body);
+
+}
+.canctext   {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--secondarytext);
+}
+.change {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+   
+}
