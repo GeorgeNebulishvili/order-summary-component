@@ -24,6 +24,7 @@ body   {
     background-image: url("./images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: contain;
     min-height: 100vh;
     display: flex;
     align-items: center;
