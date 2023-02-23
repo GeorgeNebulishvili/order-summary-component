@@ -21,12 +21,14 @@ html    {
 body   {
     font-family:"Red Hat Display";
     background-color: var(--background);
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
-    /* background-image: url(/image/pattern-background-mobile); */
+    
 }
 
 .main-container   {
@@ -39,8 +41,6 @@ body   {
     display: block;
     align-items: center;
     text-align: center;
-    /* justify-content: center; */
-    
 }
 
 .icon   {
@@ -118,4 +118,11 @@ body   {
     font-size: 13px;
     line-height: 17px;
    
+}
+
+@media screen and (min-width: 1440px) {
+     body   {
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-repeat: repeat-x;
+     }
 }
